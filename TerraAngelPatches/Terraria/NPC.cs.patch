@@ -140,17 +140,6 @@
                  Vector2 vector250 = vector249 - base.Center;
                  float num1361 = vector250.Length();
                  float num1362 = 2f;
-@@ -36446,7 +_,9 @@
-             }
-             else if (this.ai[0] == 3f)
-             {
--                Vector2 vector278 = new Vector2(this.ai[1], this.ai[2]);
-+                float ai1 = this.ai[1];
-+                float ai2 = this.ai[2];
-+                Vector2 vector278 = new Vector2(ai1, ai2);
-                 Vector2 vector279 = vector278 - base.Center;
-                 float num1444 = vector279.Length();
-                 float num1445 = 1f;
 @@ -38134,8 +_,8 @@
                          {
                              foreach (Vector2 item3 in list2)
